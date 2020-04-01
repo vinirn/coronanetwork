@@ -1,0 +1,32 @@
+def getStateAbbreviation(stateName):
+    stateAbbreviation = stateName
+    
+    if stateName.upper()=="ACRE": stateAbbreviation = "AC"
+    if stateName.upper()=="ALAGOAS": stateAbbreviation = "AL"
+    if stateName.upper()=="AMAPÁ": stateAbbreviation = "AP"
+    if stateName.upper()=="AMAZONAS": stateAbbreviation = "AM"
+    if stateName.upper()=="BAHIA": stateAbbreviation = "BA"
+    if stateName.upper()=="CEARÁ": stateAbbreviation = "CE"
+    if stateName.upper()=="DISTRITO FEDERAL (BRASIL)": stateAbbreviation = "DF"
+    if stateName.upper()=="ESPÍRITO SANTO": stateAbbreviation = "ES"
+    if stateName.upper()=="GOIÁS": stateAbbreviation = "GO"
+    if stateName.upper()=="MARANHÃO": stateAbbreviation = "MA"
+    if stateName.upper()=="MATO GROSSO": stateAbbreviation = "MT"
+    if stateName.upper()=="MATO GROSSO DO SUL": stateAbbreviation = "MS"
+    if stateName.upper()=="MINAS GERAIS": stateAbbreviation = "MG"
+    if stateName.upper()=="PARÁ": stateAbbreviation = "PA"
+    if stateName.upper()=="PARAÍBA": stateAbbreviation = "PB"
+    if stateName.upper()=="PARANÁ": stateAbbreviation = "PR"
+    if stateName.upper()=="PERNAMBUCO": stateAbbreviation = "PE"
+    if stateName.upper()=="PIAUÍ": stateAbbreviation = "PI"
+    if stateName.upper()=="RIO GRANDE DO NORTE": stateAbbreviation = "RN"
+    if stateName.upper()=="RIO GRANDE DO SUL": stateAbbreviation = "RS"
+    if stateName.upper()=="RIO DE JANEIRO": stateAbbreviation = "RJ"
+    if stateName.upper()=="RONDÔNIA": stateAbbreviation = "RO"
+    if stateName.upper()=="RORAIMA": stateAbbreviation = "RR"
+    if stateName.upper()=="SANTA CATARINA": stateAbbreviation = "SC"
+    if stateName.upper()=="SÃO PAULO": stateAbbreviation = "SP"
+    if stateName.upper()=="SERGIPE": stateAbbreviation = "SE"
+    if stateName.upper()=="TOCANTINS": stateAbbreviation = "TO"
+
+    return(stateAbbreviation)

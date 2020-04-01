@@ -1,6 +1,7 @@
 import sys
 import urllib.request, urllib.error, urllib.parse
 from stringUtils import getQuotesParam
+from stateAbbreviation import getStateAbbreviation
 
 csvfilename = "cities.csv"
 csvfile = open(csvfilename, 'w')
@@ -31,7 +32,9 @@ while True:
 
     stateName, pos = getQuotesParam(webContent,"title",pos)
     stateName = stateName.replace(" (estado)","")
-    statePrint = stateName.ljust(20,' ')
+    stateName = stateName.strip()
+    stateAbbreviation = getStateAbbreviation(stateName)
+    statePrint = stateAbbreviation.ljust(4,' ')
     print(statePrint,end='\t')
 
     token = r'<td style="text-align:right;">'
@@ -42,7 +45,7 @@ while True:
 
     print(href,end='\t')
 
-    csvfile.write(str(num)+";"+cityName+";"+stateName+";"+str(population)+";"+href+"\n")
+    csvfile.write(str(num)+";"+cityName+";"+stateAbbreviation+";"+str(population)+";"+href+"\n")
 
     print()
 
