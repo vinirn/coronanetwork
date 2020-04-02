@@ -21,7 +21,7 @@ with open(csvfilename, newline='\n') as csvfile:
         citycode = row[1]
         cityname = row[2]
         wikiurl = "https://pt.wikipedia.org/"+row[5]
-        #if (num<3):
+        
         print("("+str(num)+"/"+str(numlines)+") "+"Reading wiki for "+cityname)
         
         outfilename = outdatapath + "/" + citycode + ".html"
