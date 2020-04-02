@@ -1,3 +1,34 @@
+def removeStateName(cityName):
+    newCityName = cityName
+    newCityName = newCityName.replace(" (município)","")
+    newCityName = newCityName.replace(" (Acre)","")
+    newCityName = newCityName.replace(" (Alagoas)","")
+    newCityName = newCityName.replace(" (Amapá)","")
+    newCityName = newCityName.replace(" (Amazonas)","")
+    newCityName = newCityName.replace(" (Bahia)","")
+    newCityName = newCityName.replace(" (Ceará)","")
+    newCityName = newCityName.replace(" (Espírito Santo)","")
+    newCityName = newCityName.replace(" (Goiás)","")
+    newCityName = newCityName.replace(" (Maranhão)","")
+    newCityName = newCityName.replace(" (Mato Grosso)","")
+    newCityName = newCityName.replace(" (Mato Grosso do Sul)","")
+    newCityName = newCityName.replace(" (Minas Gerais)","")
+    newCityName = newCityName.replace(" (Pará)","")
+    newCityName = newCityName.replace(" (Paraíba)","")
+    newCityName = newCityName.replace(" (Paraná)","")
+    newCityName = newCityName.replace(" (Pernambuco)","")
+    newCityName = newCityName.replace(" (Piauí)","")
+    newCityName = newCityName.replace(" (Rio de Janeiro)","")
+    newCityName = newCityName.replace(" (Rio Grande do Norte)","")
+    newCityName = newCityName.replace(" (Rio Grande do Sul)","")
+    newCityName = newCityName.replace(" (Roraima)","")
+    newCityName = newCityName.replace(" (Rondônia)","")
+    newCityName = newCityName.replace(" (Santa Catarina)","")
+    newCityName = newCityName.replace(" (São Paulo)","")
+    newCityName = newCityName.replace(" (Sergipe)","")
+    newCityName = newCityName.replace(" (Tocantins)","")
+    return(newCityName)
+
 def getStateAbbreviation(stateName):
     stateAbbreviation = stateName
     

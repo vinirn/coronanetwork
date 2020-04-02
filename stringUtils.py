@@ -14,6 +14,7 @@ def replaceURLEncoding(content):
     newcontent = newcontent.replace(r'\xc3\xb4',r'ô')
     newcontent = newcontent.replace(r'\xc3\xb5',r'õ')
     newcontent = newcontent.replace(r'\xc3\xba',r'ú')
+    newcontent = newcontent.replace(r'\xc3\xbc',r'ü')
     return(newcontent)
 
 def getQuotesParam(content,param,startpos):
