@@ -1,10 +1,7 @@
 import csv
-import urllib.request, urllib.error, urllib.parse
-import shutil
+import matplotlib.pyplot as plt
 
-outdatapath = "/home/osboxes/Documents/data/wikicities"
-
-csvfilename = "./data/cities.csv"
+csvfilename = "./data/cities2.csv"
 
 with open(csvfilename, newline='\n') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=';')
@@ -18,12 +15,14 @@ with open(csvfilename, newline='\n') as csvfile:
         num+=1
         #print(';\t'.join(row))
         
-        citycode = row[1]
-        cityname = row[2]
-        wikiurl = "https://pt.wikipedia.org/"+row[5]
+        citycode        = row[0]
+        cityname        = row[1]
+        citystate       = row[2]
+        citypopulation  = row[3]
+        citylong        = row[4]
+        citylat         = row[5]
         
-        print("("+str(num)+"/"+str(numlines)+") "+"Reading wiki for "+cityname)
+        print("("+str(num)+"/"+str(numlines)+") "+"Reading "+cityname)
         
-        outfilename = outdatapath + "/" + citycode + ".html"
-        urllib.request.urlretrieve(wikiurl, outfilename) 
+
         
