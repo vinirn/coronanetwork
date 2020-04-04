@@ -48,7 +48,7 @@ def plot_brazil(param_state = "ALL", bordercolor=[0.0,0.0,0.0]):
         
         statename = unit.find("{http://ogr.maptools.org/}NM_ESTADO")
         state.name = getStateAbbreviation(statename.text)
-        print(state.name)
+        print(state.name,end=" ")
         
         states.append(state)
 
@@ -64,7 +64,7 @@ def plot_brazil(param_state = "ALL", bordercolor=[0.0,0.0,0.0]):
         
 
     for state in states:
-        if (param_state=="ALL") or (state.name == param_state):
+        if (param_state.upper()=="ALL") or (state.name == param_state.upper()):
             for ring in state.rings:
                 plt.plot(ring.longs,ring.lats,'-',linewidth = 1, color=bordercolor)
     plt.gca().set_aspect('equal', adjustable='box')
