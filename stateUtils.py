@@ -39,6 +39,7 @@ def getStateAbbreviation(stateName):
     if stateName.upper()=="BAHIA": stateAbbreviation = "BA"
     if stateName.upper()=="CEARÁ": stateAbbreviation = "CE"
     if stateName.upper()=="DISTRITO FEDERAL (BRASIL)": stateAbbreviation = "DF"
+    if stateName.upper()=="DISTRITO FEDERAL": stateAbbreviation = "DF"
     if stateName.upper()=="ESPÍRITO SANTO": stateAbbreviation = "ES"
     if stateName.upper()=="GOIÁS": stateAbbreviation = "GO"
     if stateName.upper()=="MARANHÃO": stateAbbreviation = "MA"
