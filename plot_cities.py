@@ -78,9 +78,10 @@ for icity in range(0,ncities):
                         bbox=dict(facecolor=colors[icity], edgecolor='none', alpha=0.2, pad=0.0))
 
 plt.gca().set_aspect('equal', adjustable='box')
-
+plt.axis('off')
 #mng = plt.get_current_fig_manager()
 #mng.frame.Maximize(True)
 figManager = plt.get_current_fig_manager()
 figManager.window.showMaximized()
+
 plt.show()
