@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from City import City
 from Cities import Cities
 from get_cities_from_csv import get_cities_from_csv
 from plot_cities import plot_cities
@@ -16,7 +15,7 @@ csvfilename = "./data/cities2.csv"
 
 cities = Cities()
 
-cities.cities = get_cities_from_csv(csvfilename)
+cities = get_cities_from_csv(csvfilename)
 
 text_population_threshold_factor = 0.1
 text_population_threshold = cities.maxpopulation_state(state_sel) * text_population_threshold_factor

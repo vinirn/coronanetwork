@@ -1,0 +1,518 @@
+São Paulo;SP;2.425
+Rio de Janeiro;RJ;867
+Fortaleza;CE;599
+Brasília;DF;422
+Porto Alegre;RS;233
+Manaus;AM;232
+Belo Horizonte;MG;225
+Salvador;BA;183
+Curitiba;PR;114
+Recife;PE;97
+São Luís;MA;82
+Florianópolis;SC;78
+Niterói;RJ;65
+São Bernardo do Campo;SP;52
+Santo André;SP;51
+Goiânia;GO;50
+Vila Velha;ES;46
+Campo Grande;MS;44
+Volta Redonda;RJ;44
+Osasco;SP;43
+Belém;PA;42
+Natal;RN;42
+São Caetano do Sul;SP;42
+Vitória;ES;37
+Rio Branco;AC;36
+Boa Vista;RR;32
+Juiz de Fora;MG;30
+Londrina;PR;30
+Nova Lima;MG;30
+Serra;ES;29
+Cuiabá;MT;25
+Blumenau;SC;24
+João Pessoa;PB;24
+Uberlândia;MG;24
+Aracaju;SE;23
+Criciúma;SC;23
+Santos;SP;23
+Campinas;SP;22
+Feira de Santana;BA;22
+Foz do Iguaçu;PR;22
+Guarulhos;SP;22
+Taboão da Serra;SP;22
+Barueri;SP;21
+Cotia;SP;21
+Maceió;AL;21
+Itajaí;SC;19
+Macapá;AP;19
+Teresina;PI;19
+Bagé;RS;18
+Santana de Parnaíba;SP;18
+Joinville;SC;17
+Mossoró;RN;16
+Aquiraz;CE;15
+Cascavel;PR;15
+Maringá;PR;15
+Tubarão;SC;15
+Cariacica;ES;14
+Novo Hamburgo;RS;14
+Caxias do Sul;RS;13
+Petrópolis;RJ;13
+Braço do Norte;SC;12
+Divinópolis;MG;12
+Lauro de Freitas;BA;12
+São José dos Campos;SP;12
+São José;SC;12
+Caieiras;SP;11
+Cianorte;PR;11
+Mogi das Cruzes;SP;11
+Nova Iguaçu;RJ;11
+Parnamirim;RN;11
+Balneário Camboriú;SC;10
+Bento Gonçalves;RS;10
+Contagem;MG;10
+Manacapuru;AM;10
+Palmas;TO;10
+Porto Seguro;BA;10
+São Gonçalo;RJ;10
+Acrelândia;AC;9
+Ananindeua;PA;9
+Campo Mourão;PR;9
+Duque de Caxias;RJ;9
+Ferraz de Vasconcelos;SP;9
+Gravataí;RS;9
+Antônio Carlos;SC;8
+Canoas;RS;8
+Diadema;SP;8
+Embu das Artes;SP;8
+Ilhéus;BA;8
+Jaboatão dos Guararapes;PE;8
+Ribeirão Preto;SP;8
+São Leopoldo;RS;8
+Torres;RS;8
+Camboriú;SC;7
+Carapicuíba;SP;7
+Linhares;ES;7
+Piracicaba;SP;7
+Porto Velho;RO;7
+Rio Verde;GO;7
+São José do Rio Preto;SP;7
+Dourados;MS;6
+Imbituba;SC;6
+Itaboraí;RJ;6
+Itapevi;SP;6
+Lajeado;RS;6
+Olinda;PE;6
+Pinhais;PR;6
+Rondonópolis;MT;6
+São José dos Pinhais;PR;6
+Betim;MG;5
+Brumado;BA;5
+Camaçari;BA;5
+Campo Largo;PR;5
+Chapecó;SC;5
+Fernando de Noronha;PE;5
+Itabuna;BA;5
+Jaraguá do Sul;SC;5
+Jundiaí;SP;5
+Lagoa da Prata;MG;5
+Maricá;RJ;5
+Sant'ana do Livramento;RS;5
+Santarém;PA;5
+Sobral;CE;5
+Valparaíso de Goiás;GO;5
+Anápolis;GO;4
+Aparecida de Goiânia;GO;4
+Batayporã;MS;4
+Camaragibe;PE;4
+Caucaia;CE;4
+Franco da Rocha;SP;4
+Itacoatiara;AM;4
+Itapecerica da Serra;SP;4
+Itororó;BA;4
+Ivoti;RS;4
+Magé;RJ;4
+Navegantes;SC;4
+Ponta Grossa;PR;4
+Porto Belo;SC;4
+Prado;BA;4
+Sabará;MG;4
+Santo Antônio do Içá;AM;4
+Suzano;SP;4
+Tangará da Serra;MT;4
+Telêmaco Borba;PR;4
+Uberaba;MG;4
+Várzea Grande;MT;4
+Viamão;RS;4
+Alagoinhas;BA;3
+Almirante Tamandaré;PR;3
+Alvorada;RS;3
+Araguaína;TO;3
+Barra Mansa;RJ;3
+Belford Roxo;RJ;3
+Brusque;SC;3
+Campo Bom;RS;3
+Cantá;RR;3
+Erechim;RS;3
+Estância Velha;RS;3
+Gravatal;SC;3
+Guarapari;ES;3
+Itaituba;PA;3
+Itajuípe;BA;3
+Itaquaquecetuba;SP;3
+Marau;RS;3
+Mariana;MG;3
+Mauá;SP;3
+Medianeira;PR;3
+Muriaé;MG;3
+Paranavaí;PR;3
+Parintins;AM;3
+Passo Fundo;RS;3
+Patrocínio;MG;3
+Paulista;PE;3
+Pelotas;RS;3
+Pouso Alegre;MG;3
+Rio das Ostras;RJ;3
+São João de Meriti;RJ;3
+São João del Rei;MG;3
+São Lourenço da Mata;PE;3
+São Ludgero;SC;3
+São Mateus;ES;3
+São Sebastião;SP;3
+Sinop;MT;3
+Sorocaba;SP;3
+Teixeira de Freitas;BA;3
+Tonantins;AM;3
+Americana;SP;2
+Anta Gorda;RS;2
+Araçatuba;SP;2
+Aracruz;ES;2
+Arapongas;PR;2
+Araucária;PR;2
+Arujá;SP;2
+Barra do Piraí;RJ;2
+Bauru;SP;2
+Bonfim;RR;2
+Cabo de Santo Agostinho;PE;2
+Cachoeirinha;RS;2
+Cambé;PR;2
+Campina Grande;PB;2
+Capão da Canoa;RS;2
+Castanhal;PA;2
+Castelo;ES;2
+Dois Irmãos;RS;2
+Farroupilha;RS;2
+Gaspar;SC;2
+Governador Valadares;MG;2
+Guaíra;PR;2
+Icó;CE;2
+Imperatriz;MA;2
+Indaiatuba;SP;2
+Itaguaí;RJ;2
+Itanhaém;SP;2
+Itapema;SC;2
+Itumbiara;GO;2
+Jaguaruna;SC;2
+Jandira;SP;2
+Jataí;GO;2
+Juazeiro;BA;2
+Limeira;SP;2
+Louveira;SP;2
+Macaé;RJ;2
+Mairiporã;SP;2
+Marabá;PA;2
+Maracanaú;CE;2
+Maranguape;CE;2
+Marechal Cândido Rondon;PR;2
+Papanduva;SC;2
+Paranaguá;PR;2
+Parauapebas;PA;2
+Pato Branco;PR;2
+Petrolina;PE;2
+Poços de Caldas;MG;2
+Propriá;SE;2
+Quatiguá;PR;2
+Queimados;RJ;2
+Quixadá;CE;2
+Rancho Queimado;SC;2
+Resende;RJ;2
+Rio Bonito;RJ;2
+Rio Grande;RS;2
+Salto de Pirapora;SP;2
+Santa Cruz Cabrália;BA;2
+Santa Maria;RS;2
+Santa Rosa;RS;2
+Santo Antônio do Monte;MG;2
+São Gonçalo do Amarante;RN;2
+São José de Ribamar;MA;2
+São Sebastião do Caí;RS;2
+São Vicente;SP;2
+Serafina Corrêa;RS;2
+Sete Lagoas;MG;2
+Siderópolis;SC;2
+Sooretama;ES;2
+Tianguá;CE;2
+Umuarama;PR;2
+União da Vitória;PR;2
+Vargem Grande Paulista;SP;2
+Abaetetuba;PA;1
+Açailândia;MA;1
+Açu;RN;1
+Afonso Cláudio;ES;1
+Águas Lindas de Goiás;GO;1
+Alcinópolis;MS;1
+Alegrete;RS;1
+Alfenas;MG;1
+Aliança;PE;1
+Altamira;PA;1
+Angra dos Reis;RJ;1
+Anori;AM;1
+Apodi;RN;1
+Araguari;MG;1
+Araranguá;SC;1
+Araruama;RJ;1
+Araruna;PR;1
+Arcos;MG;1
+Arraial do Cabo;RJ;1
+Assis Chateaubriand;PR;1
+Balneário Arroio do Silva;SC;1
+Barbacena;MG;1
+Barcarena;PA;1
+Barra do Rocha;BA;1
+Barra;BA;1
+Barreiras;BA;1
+Beberibe;CE;1
+Belmonte;BA;1
+Belo Jardim;PE;1
+Benevides;PA;1
+Biguaçu;SC;1
+Boa Esperança;MG;1
+Boca do Acre;AM;1
+Bom Despacho;MG;1
+Bom Jesus de Goiás;GO;1
+Brodowski;SP;1
+Cabedelo;PB;1
+Cachoeira do Sul;RS;1
+Cachoeira Paulista;SP;1
+Cachoeiro de Itapemirim;ES;1
+Cajamar;SP;1
+Campestre de Goiás;GO;1
+Campina Grande do Sul;PR;1
+Campo Belo;MG;1
+Campo Magro;PR;1
+Campo Maior;PI;1
+Campos Altos;MG;1
+Campos dos Goytacazes;RJ;1
+Canarana;BA;1
+Candeias;BA;1
+Canelinha;SC;1
+Canguçu;RS;1
+Canindé;CE;1
+Capão do Leão;RS;1
+Capela;SE;1
+Capitólio;MG;1
+Careiro da Várzea;AM;1
+Carlos Barbosa;RS;1
+Carmo do Cajuru;MG;1
+Carnaubais;RN;1
+Caruaru;PE;1
+Castro;PR;1
+Catalão;GO;1
+Cerro Grande do Sul;RS;1
+Charqueadas;RS;1
+Cidade Ocidental;GO;1
+Coaraci;BA;1
+Colatina;ES;1
+Colombo;PR;1
+Conceição do Jacuípe;BA;1
+Conde;BA;1
+Contenda;PR;1
+Cornélio Procópio;PR;1
+Coronel Fabriciano;MG;1
+Cruzeiro do Sul;RS;1
+Dias d'Ávila;BA;1
+Dom Pedrito;RS;1
+Eldorado do Sul;RS;1
+Esmeraldas;MG;1
+Estrela;RS;1
+Eusébio;CE;1
+Extrema;MG;1
+Farias Brito;CE;1
+Faxinal;PR;1
+Fazenda Rio Grande;PR;1
+Fortim;CE;1
+Francisco Beltrão;PR;1
+Fundão;ES;1
+Garibaldi;RS;1
+Goiana;PE;1
+Goianésia do Pará;PA;1
+Goianésia;GO;1
+Goioerê;PR;1
+Governador Celso Ramos;SC;1
+Guaíba;RS;1
+Guapimirim;RJ;1
+Guarapuava;PR;1
+Guarujá;SP;1
+Guimarânia;MG;1
+Hortolândia;SP;1
+Ibaiti;PR;1
+Içara;SC;1
+Igaracy;PB;1
+Iguaba Grande;RJ;1
+Indaial;SC;1
+Ipaporanga;CE;1
+Ipatinga;MG;1
+Ipiaú;BA;1
+Ipubi;PE;1
+Iracemápolis;SP;1
+Irati;SC;1
+Iretama;PR;1
+Itabira;MG;1
+Itagibá;BA;1
+Itaitinga;CE;1
+Itamaraju;BA;1
+Itapajé;CE;1
+Itapemirim;ES;1
+Itapipoca;CE;1
+Itupeva;SP;1
+Jaguaribe;CE;1
+Jaguariúna;SP;1
+Jaru;RO;1
+Jequié;BA;1
+Ji-Paraná;RO;1
+Joaçaba;SC;1
+Juazeiro do Norte;CE;1
+Junco do Seridó;PB;1
+Lages;SC;1
+Laguna;SC;1
+Lapa;PR;1
+Lavras;MG;1
+Lençóis Paulista;SP;1
+Leópolis;PR;1
+Lucas do Rio Verde;MT;1
+Luís Gomes;RN;1
+Luziânia;GO;1
+Macaíba;RN;1
+Mafra;SC;1
+Mandirituba;PR;1
+Mangaratiba;RJ;1
+Manhuaçu;MG;1
+Marechal Deodoro;AL;1
+Mariópolis;PR;1
+Marituba;PA;1
+Matão;SP;1
+Matinhos;PR;1
+Mauriti;CE;1
+Medeiros Neto;BA;1
+Mesquita;RJ;1
+Miguel Pereira;RJ;1
+Mogi Guaçu;SP;1
+Monte Alegre;RN;1
+Morro da Fumaça;SC;1
+Nilópolis;RJ;1
+Nossa Senhora da Glória;SE;1
+Nova Andradina;MS;1
+Nova Monte Verde;MT;1
+Nova Odessa;SP;1
+Nova Palma;RS;1
+Nova Soure;BA;1
+Nova Veneza;GO;1
+Novo Airão;AM;1
+Novo Progresso;PA;1
+Oeiras do Pará;PA;1
+Osório;RS;1
+Paço do Lumiar;MA;1
+Palhoça;SC;1
+Palmares;PE;1
+Palmeira;PR;1
+Paraí;RS;1
+Paranaiguara;GO;1
+Parnaíba;PI;1
+Passa e Fica;RN;1
+Patos;PB;1
+Paulínia;SP;1
+Paulo Lopes;SC;1
+Peabiru;PR;1
+Penápolis;SP;1
+Pescaria Brava;SC;1
+Pirajuí;SP;1
+Piraquara;PR;1
+Piratini;RS;1
+Poá;SP;1
+Pojuca;BA;1
+Pomerode;SC;1
+Ponta Porã;MS;1
+Porciúncula;RJ;1
+Porto Acre;AC;1
+Porto Feliz;SP;1
+Porto Real do Colégio;AL;1
+Praia Grande;SP;1
+Quatro Barras;PR;1
+Ribeirão das Neves;MG;1
+Ribeirão Pires;SP;1
+Rio Branco do Sul;PR;1
+Rio Claro;SP;1
+Rio Negro;PR;1
+Rio Verde de Mato Grosso;MS;1
+Rolante;RS;1
+Santa Isabel;SP;1
+Santa Luzia;MG;1
+Santa Quitéria;CE;1
+Santa Teresa;ES;1
+Santana do Paraíso;MG;1
+Santiago;RS;1
+Santo Antônio da Patrulha;RS;1
+São Domingos do Sul;RS;1
+São Domingos;BA;1
+São Francisco do Sul;SC;1
+São Gabriel;RS;1
+São Geraldo do Araguaia;PA;1
+São José de Mipibu;RN;1
+São José do Divino;PI;1
+São José do Rio Pardo;SP;1
+São Lourenço do Oeste;SC;1
+São Luís de Montes Belos;GO;1
+São Manoel do Paraná;PR;1
+São Pedro da Aldeia;RJ;1
+São Pedro de Alcântara;SC;1
+São Pedro;SP;1
+São Roque do Canaã;ES;1
+Sapiranga;RS;1
+Sapucaia do Sul;RS;1
+Sarandi;PR;1
+Senador Canedo;GO;1
+Seropédica;RJ;1
+Serra Branca;PB;1
+Serra do Salitre;MG;1
+Sidrolândia;MS;1
+Silvânia;GO;1
+Sousa;PB;1
+Taquara;RS;1
+Taquari;RS;1
+Tatuí;SP;1
+Taubaté;SP;1
+Teresópolis;RJ;1
+Terra Boa;PR;1
+Terra Rica;PR;1
+Tibau;RN;1
+Tijucas;SC;1
+Timbé do Sul;SC;1
+Timóteo;MG;1
+Toledo;MG;1
+Tramandaí;RS;1
+Três Lagoas;MS;1
+Três Rios;RJ;1
+Trindade;GO;1
+Tucuruí;PA;1
+Unaí;MG;1
+Uruguaiana;RS;1
+Urussanga;SC;1
+Valença;RJ;1
+Valinhos;SP;1
+Verê;PR;1
+Viana;ES;1
+Vila Maria;RS;1
+Vinhedo;SP;1
+Vitória da Conquista;BA;1
+Votorantim;SP;1
+Votuporanga;SP;1

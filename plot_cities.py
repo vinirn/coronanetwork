@@ -14,7 +14,7 @@ def plot_cities(cities, state_sel="ALL"):
                 plt.text(
                             cities[icity].long, 
                             cities[icity].lat, 
-                            cities[icity].name,
+                            cities[icity].plottext,
                             color = [0.0, 0.0, 0.0, cities[icity].plotcolor[3]], 
                             fontsize = cities[icity].plotfontsize,
                             bbox = dict(
