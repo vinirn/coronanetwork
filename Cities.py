@@ -11,22 +11,30 @@ class Cities:
     state_sel = ""
 
     def __init__(self):
+        self.cities = []
         self.sumfields={}
         self.maxfields={}
         self.minfields={}
+    
+    def update_sum(self,city):
+        if self.test_state(city.state):
+            for key in city.fields:
+                if key in self.sumfields:
+                    self.sumfields[key]+=city.fields[key]
+                else:
+                    self.sumfields[key]=city.fields[key]
 
     def update_info(self,city):
-        for key in city.fields:
-            if key in self.maxfields:
-                self.sumfields[key]+=city.fields[key]
-                if city.fields[key]>self.maxfields[key]:
+        if self.test_state(city.state):
+            for key in city.fields:
+                if key in self.maxfields:
+                    if city.fields[key]>self.maxfields[key]:
+                        self.maxfields[key]=city.fields[key]
+                    if city.fields[key]<self.minfields[key]:
+                        self.minfields[key]=city.fields[key]
+                else:
                     self.maxfields[key]=city.fields[key]
-                if city.fields[key]<self.minfields[key]:
                     self.minfields[key]=city.fields[key]
-            else:
-                self.sumfields[key]=city.fields[key]
-                self.maxfields[key]=city.fields[key]
-                self.minfields[key]=city.fields[key]
 
     def print_info(self):
         for key in self.sumfields:
@@ -43,8 +51,12 @@ class Cities:
             return(False)
 
     def append(self,city):
+
+        city.unify_ambiguous_names()
+
         self.cities.append(city)
         self.update_info(city)
+        self.update_sum(city)
 
     def ncities(self):
         return(len(self.cities))
@@ -72,6 +84,13 @@ class Cities:
                 if city.population>maxp_state:
                     maxp_state = city.population
         return(maxp_state)
+
+    def print(self):
+        for city in self.cities:
+            print(city.name + "," + city.state,end=" ")
+            for key in city.fields:
+                print(key + ":"+str(city.fields[key])+",",end=" ")
+            print(" ")
 
     def config_plot_from_field(self, plotexp = 1.0, text_threshold_factor=0.1, fieldname="population"):
         ncities = self.ncities()
@@ -181,3 +200,20 @@ class Cities:
                         if not cityhasfield:
                             self.cities[icity].fields[key2]=city2.fields[key2]
 
+    def get_sorted_cities_by_int_field(self, fieldname):
+        cities_temp = self
+        cities_return = Cities()
+
+        for cont in self.range():
+            icity_max = 0
+            max_field_value = 0
+            for icity in cities_temp.range():
+                if fieldname in cities_temp.cities[icity].fields:
+                    if cities_temp.cities[icity].fields[fieldname]>max_field_value:
+                        max_field_value = cities_temp.cities[icity].fields[fieldname]
+                        icity_max = icity
+            
+            cities_return.append(cities_temp.cities[icity_max])
+            cities_temp.cities.pop(icity_max)
+
+        return(cities_return)

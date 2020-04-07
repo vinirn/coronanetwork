@@ -16,3 +16,7 @@ class City:
 
     def __init__(self):
         self.fields={}
+
+    def unify_ambiguous_names(self):
+        if (self.name.upper()=="ASSU") and (self.state=="RN"):
+            self.name = "Açu"
