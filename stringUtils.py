@@ -1,3 +1,5 @@
+import datetime
+
 def replaceURLEncoding(content):
     newcontent = content
     newcontent = newcontent.replace(r'&#39;',"'")
@@ -23,3 +25,7 @@ def getQuotesParam(content,param,startpos):
     paramValue = content[(paramStart+len(param)+2):(paramEnd)]
     paramValue = replaceURLEncoding(paramValue)
     return(paramValue, paramEnd)
+
+def formatDate(day):
+    formatedDate = datetime.datetime.strptime(day, '%Y-%m-%d').strftime('%d/%m/%Y')
+    return(formatedDate)

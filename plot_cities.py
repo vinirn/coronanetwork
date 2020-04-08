@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def plot_cities(cities, state_sel="ALL"):
+def plot_cities(cities, state_sel="ALL", pngfile = "cities.png"):
 
     ncities = len(cities)
 
@@ -31,4 +31,6 @@ def plot_cities(cities, state_sel="ALL"):
     figManager = plt.get_current_fig_manager()
     figManager.window.showMaximized()
 
+    plt.savefig(pngfile)
     plt.show()
+    

@@ -9,12 +9,14 @@ class Cities:
     maxfields = {}
     minfields = {}
     state_sel = ""
+    fieldsdescriptions = {}
 
     def __init__(self):
         self.cities = []
         self.sumfields={}
         self.maxfields={}
         self.minfields={}
+        self.fieldsdescriptions = {}
     
     def update_sum(self,city):
         if self.test_state(city.state):

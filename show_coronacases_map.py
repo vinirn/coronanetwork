@@ -7,9 +7,9 @@ from plot_cities import plot_cities
 from plot_map import plot_brazil
 from process_g1data import process_g1_data
 
-state_sel = "pa"
+state_sel = "all"
 
-day = "2020-04-06"
+day = "2020-04-07"
 
 bordercolor = .7*np.array([1.0,1.0,1.0])
 plot_brazil(state_sel, bordercolor)
