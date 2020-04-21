@@ -32,5 +32,5 @@ def plot_cities(cities, state_sel="ALL", pngfile = "cities.png"):
     figManager.window.showMaximized()
 
     plt.savefig(pngfile)
-    plt.show()
+    #plt.show()
     

@@ -205,6 +205,12 @@ class Cities:
     def get_sorted_cities_by_int_field(self, fieldname):
         cities_temp = self
         cities_return = Cities()
+        cities_return.sumfields = self.sumfields
+        cities_return.maxfields = self.maxfields
+        cities_return.minfields = self.minfields
+        cities_return.state_sel = self.state_sel
+        cities_return.fieldsdescriptions = self.fieldsdescriptions
+
 
         for cont in self.range():
             icity_max = 0

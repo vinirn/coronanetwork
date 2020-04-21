@@ -62,3 +62,38 @@ def getStateAbbreviation(stateName):
     if stateName.upper()=="TOCANTINS": stateAbbreviation = "TO"
 
     return(stateAbbreviation)
+
+
+def getStateName(stateAbbreviation):
+    stateName = stateAbbreviation
+
+    if stateAbbreviation.upper()=='ALL': stateName = "Brasil"
+    if stateAbbreviation.upper()=="AC": stateName = "Acre"
+    if stateAbbreviation.upper()=="AL": stateName = "Alagoas"
+    if stateAbbreviation.upper()=="AM": stateName = "Amapá"
+    if stateAbbreviation.upper()=="AM": stateName = "Amazonas"
+    if stateAbbreviation.upper()=="BA": stateName = "Bahia"
+    if stateAbbreviation.upper()=="CE": stateName = "Ceará"
+    if stateAbbreviation.upper()=="DF": stateName = "Distrito Federal"
+    if stateAbbreviation.upper()=="ES": stateName = "Espírito Santo"
+    if stateAbbreviation.upper()=="GO": stateName = "Goiás"
+    if stateAbbreviation.upper()=="MA": stateName = "Maranhão"
+    if stateAbbreviation.upper()=="MT": stateName = "Mato Grosso"
+    if stateAbbreviation.upper()=="MS": stateName = "Mato Grosso do Sul"
+    if stateAbbreviation.upper()=="MG": stateName = "Minas Gerais"
+    if stateAbbreviation.upper()=="PA": stateName = "Pará"
+    if stateAbbreviation.upper()=="PB": stateName = "Paraíba"
+    if stateAbbreviation.upper()=="PR": stateName = "Paraná"
+    if stateAbbreviation.upper()=="PE": stateName = "Pernambuco"
+    if stateAbbreviation.upper()=="PI": stateName = "Piauí"
+    if stateAbbreviation.upper()=="RN": stateName = "Rio Grande do Norte"
+    if stateAbbreviation.upper()=="RS": stateName = "Rio Grande do Sul"
+    if stateAbbreviation.upper()=="RJ": stateName = "Rio de Janeiro"
+    if stateAbbreviation.upper()=="RO": stateName = "Rondônia"
+    if stateAbbreviation.upper()=="RR": stateName = "Roraima"
+    if stateAbbreviation.upper()=="SC": stateName = "Santa Catarina"
+    if stateAbbreviation.upper()=="SP": stateName = "São Paulo"
+    if stateAbbreviation.upper()=="SE": stateName = "Sergipe"
+    if stateAbbreviation.upper()=="TO": stateName = "Tocantins"
+
+    return(stateName)
